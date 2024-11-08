@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Labtest</title>
+	<style>
+		th,td{
+			padding:10px;
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+   <form>
+	<table border="1">
+		<thead>
+			<tr>
+				<th colspan = "3" style="text-align: center;">
+					<strong> About--111103028 </strong>
+				</th>
+			</tr>
+
+		</thead>
+			<tr>
+				<th rowspan = "3">
+					<img src = "pic1.png" alt = "pic1 img"/>
+					<p> personal photo</p>
+
+				</th>
+				<td colspan="2">
+					<label> Name:
+						<input name = "name" type = "text" size = "25" maxlength="30">
+					</label><br>
+					<label> Gender:
+						<form>
+							<input type = "radio" name = "gender" value = "male" checked> Male 
+							<input type = "radio" name = "gender" value = "female" checked> Female 
+							<input type = "radio" name = "gender" value = "other" checked> Other 
+						</form>
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label> County:
+							<select name = "county">
+								<option value = "Taipei">Taipei</option>
+								<option value = "Tainan">Tainan</option>
+								<option value = "Taichung">Taichung</option>
+								<option value = "Taoyuan">Taoyuan</option>
+							</select>
+							
+					</label>
+				</td>
+				<td>
+							<label for = "birthday">Birthady:</label>
+
+							<input type="date" id = "birthday" name = "birthday" value = "年/月/日" min = "1911-01-01" max = "2024-11-08" >
+				</td>
+				<tr>
+					<td colspan="2">
+					<label> E-mail:
+						<input E-mail = "E-mail" type = "text" size = "25" >
+					</label>
+				</tr>
+				<tr>
+					<td>Hobby</td>
+					<td colspan = "2">
+							<input type = "checkbox" name = "hobby" value = "Swimming"> Swimming
+							<input type = "checkbox" name = "hobby" value = "Volleyball"> Volleyball
+							<input type = "checkbox" name = "hobby" value = "Movie"> Movie
+							<input type = "checkbox" name = "hobby" value = "Game"> Game
+							<input type = "checkbox" name = "hobby" value = "sleep"> sleep
+					</td>
+				</tr>
+				<tr>
+					<td >Skill</td>
+					<td colspan = "2">
+							<input type = "checkbox" name = "skill" value = "Java"> Java
+							<input type = "checkbox" name = "skill" value = "HTML"> HTML
+							<input type = "checkbox" name = "skill" value = "Python"> Python
+							<input type = "checkbox" name = "skill" value = "Microsoft Office"> Microsoft Office
+							<input type = "checkbox" name = "skill" value = "Premiere"> Premiere
+					</td>
+				</tr>
+				<tr>
+					<td> Say Something </td>
+					<td colspan="2">
+						<textarea rows = "1" cols ="30">Saying something here.</textarea>
+				    </td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type = "submit" value = "Submit">
+						<input type = "reset" value = "Clear">
+					</td>
+				</tr>
+		</table>
+	</form>
+			
+
+</body>
+</html>
